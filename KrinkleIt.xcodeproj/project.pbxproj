@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABD5CD219AFC9650072CDD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD5CD119AFC9650072CDD9 /* Foundation.framework */; };
+		FABD5CD419AFC9650072CDD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD5CD319AFC9650072CDD9 /* CoreGraphics.framework */; };
+		FABD5CD619AFC9650072CDD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD5CD519AFC9650072CDD9 /* UIKit.framework */; };
+		FABD5CDC19AFC9650072CDD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABD5CDA19AFC9650072CDD9 /* InfoPlist.strings */; };
+		FABD5CDE19AFC9650072CDD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD5CDD19AFC9650072CDD9 /* main.m */; };
+		FABD5CE219AFC9650072CDD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD5CE119AFC9650072CDD9 /* AppDelegate.m */; };
+		FABD5CE519AFC9650072CDD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABD5CE319AFC9650072CDD9 /* Main.storyboard */; };
+		FABD5CE819AFC9650072CDD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD5CE719AFC9650072CDD9 /* ViewController.m */; };
+		FABD5CEA19AFC9650072CDD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD5CE919AFC9650072CDD9 /* Images.xcassets */; };
+		FABD5CF119AFC9650072CDD9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD5CF019AFC9650072CDD9 /* XCTest.framework */; };
+		FABD5CF219AFC9650072CDD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD5CD119AFC9650072CDD9 /* Foundation.framework */; };
+		FABD5CF319AFC9650072CDD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABD5CD519AFC9650072CDD9 /* UIKit.framework */; };
+		FABD5CFB19AFC9650072CDD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABD5CF919AFC9650072CDD9 /* InfoPlist.strings */; };
+		FABD5CFD19AFC9650072CDD9 /* KrinkleItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD5CFC19AFC9650072CDD9 /* KrinkleItTests.m */; };
+		FAE6A53019B6517400EFCCDF /* placeHoldImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE6A52F19B6517300EFCCDF /* placeHoldImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FABD5CF419AFC9650072CDD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABD5CC619AFC9650072CDD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABD5CCD19AFC9650072CDD9;
+			remoteInfo = KrinkleIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FABD5CCE19AFC9650072CDD9 /* KrinkleIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrinkleIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABD5CD119AFC9650072CDD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FABD5CD319AFC9650072CDD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FABD5CD519AFC9650072CDD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FABD5CD919AFC9650072CDD9 /* KrinkleIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KrinkleIt-Info.plist"; sourceTree = "<group>"; };
+		FABD5CDB19AFC9650072CDD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FABD5CDD19AFC9650072CDD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABD5CDF19AFC9650072CDD9 /* KrinkleIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KrinkleIt-Prefix.pch"; sourceTree = "<group>"; };
+		FABD5CE019AFC9650072CDD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FABD5CE119AFC9650072CDD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FABD5CE419AFC9650072CDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABD5CE619AFC9650072CDD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FABD5CE719AFC9650072CDD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FABD5CE919AFC9650072CDD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FABD5CEF19AFC9650072CDD9 /* KrinkleItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrinkleItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABD5CF019AFC9650072CDD9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FABD5CF819AFC9650072CDD9 /* KrinkleItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KrinkleItTests-Info.plist"; sourceTree = "<group>"; };
+		FABD5CFA19AFC9650072CDD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FABD5CFC19AFC9650072CDD9 /* KrinkleItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KrinkleItTests.m; sourceTree = "<group>"; };
+		FAE6A52F19B6517300EFCCDF /* placeHoldImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeHoldImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABD5CCB19AFC9650072CDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD5CD419AFC9650072CDD9 /* CoreGraphics.framework in Frameworks */,
+				FABD5CD619AFC9650072CDD9 /* UIKit.framework in Frameworks */,
+				FABD5CD219AFC9650072CDD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABD5CEC19AFC9650072CDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD5CF119AFC9650072CDD9 /* XCTest.framework in Frameworks */,
+				FABD5CF319AFC9650072CDD9 /* UIKit.framework in Frameworks */,
+				FABD5CF219AFC9650072CDD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABD5CC519AFC9650072CDD9 = {
+			isa = PBXGroup;
+			children = (
+				FABD5CD719AFC9650072CDD9 /* KrinkleIt */,
+				FABD5CF619AFC9650072CDD9 /* KrinkleItTests */,
+				FABD5CD019AFC9650072CDD9 /* Frameworks */,
+				FABD5CCF19AFC9650072CDD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABD5CCF19AFC9650072CDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABD5CCE19AFC9650072CDD9 /* KrinkleIt.app */,
+				FABD5CEF19AFC9650072CDD9 /* KrinkleItTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABD5CD019AFC9650072CDD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FABD5CD119AFC9650072CDD9 /* Foundation.framework */,
+				FABD5CD319AFC9650072CDD9 /* CoreGraphics.framework */,
+				FABD5CD519AFC9650072CDD9 /* UIKit.framework */,
+				FABD5CF019AFC9650072CDD9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FABD5CD719AFC9650072CDD9 /* KrinkleIt */ = {
+			isa = PBXGroup;
+			children = (
+				FABD5CE019AFC9650072CDD9 /* AppDelegate.h */,
+				FABD5CE119AFC9650072CDD9 /* AppDelegate.m */,
+				FABD5CE319AFC9650072CDD9 /* Main.storyboard */,
+				FABD5CE619AFC9650072CDD9 /* ViewController.h */,
+				FABD5CE719AFC9650072CDD9 /* ViewController.m */,
+				FABD5CE919AFC9650072CDD9 /* Images.xcassets */,
+				FABD5CD819AFC9650072CDD9 /* Supporting Files */,
+			);
+			path = KrinkleIt;
+			sourceTree = "<group>";
+		};
+		FABD5CD819AFC9650072CDD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE6A52F19B6517300EFCCDF /* placeHoldImage.png */,
+				FABD5CD919AFC9650072CDD9 /* KrinkleIt-Info.plist */,
+				FABD5CDA19AFC9650072CDD9 /* InfoPlist.strings */,
+				FABD5CDD19AFC9650072CDD9 /* main.m */,
+				FABD5CDF19AFC9650072CDD9 /* KrinkleIt-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FABD5CF619AFC9650072CDD9 /* KrinkleItTests */ = {
+			isa = PBXGroup;
+			children = (
+				FABD5CFC19AFC9650072CDD9 /* KrinkleItTests.m */,
+				FABD5CF719AFC9650072CDD9 /* Supporting Files */,
+			);
+			path = KrinkleItTests;
+			sourceTree = "<group>";
+		};
+		FABD5CF719AFC9650072CDD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FABD5CF819AFC9650072CDD9 /* KrinkleItTests-Info.plist */,
+				FABD5CF919AFC9650072CDD9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABD5CCD19AFC9650072CDD9 /* KrinkleIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABD5D0019AFC9650072CDD9 /* Build configuration list for PBXNativeTarget "KrinkleIt" */;
+			buildPhases = (
+				FABD5CCA19AFC9650072CDD9 /* Sources */,
+				FABD5CCB19AFC9650072CDD9 /* Frameworks */,
+				FABD5CCC19AFC9650072CDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrinkleIt;
+			productName = KrinkleIt;
+			productReference = FABD5CCE19AFC9650072CDD9 /* KrinkleIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABD5CEE19AFC9650072CDD9 /* KrinkleItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABD5D0319AFC9650072CDD9 /* Build configuration list for PBXNativeTarget "KrinkleItTests" */;
+			buildPhases = (
+				FABD5CEB19AFC9650072CDD9 /* Sources */,
+				FABD5CEC19AFC9650072CDD9 /* Frameworks */,
+				FABD5CED19AFC9650072CDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABD5CF519AFC9650072CDD9 /* PBXTargetDependency */,
+			);
+			name = KrinkleItTests;
+			productName = KrinkleItTests;
+			productReference = FABD5CEF19AFC9650072CDD9 /* KrinkleItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABD5CC619AFC9650072CDD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Me;
+				TargetAttributes = {
+					FABD5CEE19AFC9650072CDD9 = {
+						TestTargetID = FABD5CCD19AFC9650072CDD9;
+					};
+				};
+			};
+			buildConfigurationList = FABD5CC919AFC9650072CDD9 /* Build configuration list for PBXProject "KrinkleIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABD5CC519AFC9650072CDD9;
+			productRefGroup = FABD5CCF19AFC9650072CDD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABD5CCD19AFC9650072CDD9 /* KrinkleIt */,
+				FABD5CEE19AFC9650072CDD9 /* KrinkleItTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABD5CCC19AFC9650072CDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6A53019B6517400EFCCDF /* placeHoldImage.png in Resources */,
+				FABD5CEA19AFC9650072CDD9 /* Images.xcassets in Resources */,
+				FABD5CDC19AFC9650072CDD9 /* InfoPlist.strings in Resources */,
+				FABD5CE519AFC9650072CDD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABD5CED19AFC9650072CDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD5CFB19AFC9650072CDD9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABD5CCA19AFC9650072CDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD5CE819AFC9650072CDD9 /* ViewController.m in Sources */,
+				FABD5CE219AFC9650072CDD9 /* AppDelegate.m in Sources */,
+				FABD5CDE19AFC9650072CDD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABD5CEB19AFC9650072CDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABD5CFD19AFC9650072CDD9 /* KrinkleItTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FABD5CF519AFC9650072CDD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABD5CCD19AFC9650072CDD9 /* KrinkleIt */;
+			targetProxy = FABD5CF419AFC9650072CDD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABD5CDA19AFC9650072CDD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABD5CDB19AFC9650072CDD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FABD5CE319AFC9650072CDD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABD5CE419AFC9650072CDD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABD5CF919AFC9650072CDD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABD5CFA19AFC9650072CDD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABD5CFE19AFC9650072CDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FABD5CFF19AFC9650072CDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABD5D0119AFC9650072CDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KrinkleIt/KrinkleIt-Prefix.pch";
+				INFOPLIST_FILE = "KrinkleIt/KrinkleIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FABD5D0219AFC9650072CDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KrinkleIt/KrinkleIt-Prefix.pch";
+				INFOPLIST_FILE = "KrinkleIt/KrinkleIt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FABD5D0419AFC9650072CDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KrinkleIt.app/KrinkleIt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KrinkleIt/KrinkleIt-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KrinkleItTests/KrinkleItTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FABD5D0519AFC9650072CDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KrinkleIt.app/KrinkleIt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KrinkleIt/KrinkleIt-Prefix.pch";
+				INFOPLIST_FILE = "KrinkleItTests/KrinkleItTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABD5CC919AFC9650072CDD9 /* Build configuration list for PBXProject "KrinkleIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABD5CFE19AFC9650072CDD9 /* Debug */,
+				FABD5CFF19AFC9650072CDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABD5D0019AFC9650072CDD9 /* Build configuration list for PBXNativeTarget "KrinkleIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABD5D0119AFC9650072CDD9 /* Debug */,
+				FABD5D0219AFC9650072CDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABD5D0319AFC9650072CDD9 /* Build configuration list for PBXNativeTarget "KrinkleItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABD5D0419AFC9650072CDD9 /* Debug */,
+				FABD5D0519AFC9650072CDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABD5CC619AFC9650072CDD9 /* Project object */;
+}
